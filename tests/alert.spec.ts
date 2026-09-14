@@ -8,5 +8,6 @@ test('alert sample', async({page})=>{
     await page.locator('#alertBtn').click()
     await page.getByRole('button',{name:'Confirmation Alert'}).click()
     await page.locator('[id="promptBtn"]').click()
+  
     
 })
